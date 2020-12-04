@@ -9,8 +9,6 @@ namespace RouteToCodePost.Data
         {
         }
 
-        public DbSet<Person> People { get; set; }
-        public DbSet<Movie> Movies { get; set; }
         public DbSet<Band> Bands { get; set; }
     }
 }
